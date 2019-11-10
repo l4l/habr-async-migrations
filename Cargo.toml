@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "new-async",
+    "old-async",
+    "interop",
+]

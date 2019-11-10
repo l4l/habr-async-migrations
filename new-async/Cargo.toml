@@ -1,0 +1,10 @@
+[package]
+name = "new-async"
+version = "0.1.0"
+authors = ["Kitsu <mail@kitsu.me>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.3.1"
+tokio = "0.2.0-alpha.5"
+pin-project = "0.4.5"

@@ -1,0 +1,11 @@
+[package]
+name = "interop"
+version = "0.1.0"
+authors = ["Kitsu <mail@kitsu.me>"]
+edition = "2018"
+
+[dependencies]
+new-futures = { package = "futures", version = "0.3.1", features = ["compat"]}
+new-tokio = { package = "tokio", version = "0.2.0-alpha.5" }
+old-futures = { package = "futures", version = "0.1.29" }
+old-tokio = { package = "tokio", version = "0.1.22" }
